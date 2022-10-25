@@ -1,0 +1,67 @@
+@import "../App.css";
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #ffffff;
+
+    background-color: var(--secondary-color);
+    border-radius: 25rem;
+    padding: 1rem 2rem;
+    margin: 1rem 0.3rem;
+}
+
+.expense-item__desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.expense-item h2 {
+    color: rgb(161, 87, 251);
+    font: 1.25rem;
+    flex: 1;
+    margin: 0 2rem;
+}
+
+.expense-item__price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 25rem;
+
+    transition: all 0.3s 0s ease;
+}
+
+.expense-item__price:hover {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
+
+@media (max-width: 580px) {
+    .expense-item__desc{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex: 1;
+        gap: 1;
+    }
+
+    .expense-item__desc h2 {
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+
+    .expense-item__price {
+        font-size: 1rem;
+        padding: 0.5rem 0.8rem;
+    }
+}
