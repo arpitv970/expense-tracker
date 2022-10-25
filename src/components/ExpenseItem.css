@@ -47,7 +47,7 @@
 }
 
 @media (max-width: 580px) {
-    .expense-item__desc{
+    .expense-item__desc {
         flex-direction: column-reverse;
         align-items: flex-end;
         justify-content: flex-start;

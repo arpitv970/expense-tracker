@@ -1,5 +1,10 @@
 :root {
   --primary-color: rgb(110, 0, 244);
-  --secondary-color: rgb(40, 40, 40);
-  --tertiary-color: #f7fa6a;
+  --secondary-color: rgb(33, 33, 33);
+  --tertiary-color: #fcff65;
+  --primary-bg-color: rgb(118, 118, 118);
+}
+
+body {
+  background-color: var(--primary-bg-color);
 }

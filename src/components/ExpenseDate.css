@@ -1,0 +1,19 @@
+.expense-item__date {
+    border: 2px solid white;
+    border-radius: 12px;
+
+    background-color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0.2rem;
+    padding: 0.4rem;
+
+    width: 4.2rem;
+    height: 4.2rem;
+}
